@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.live_streaming"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:5:5-76
+13-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:6:5-71
+14-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:7:5-79
+15-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:8:5-65
+16-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:8:22-62
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:9:5-68
+17-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:11:5-81
+19-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:12:5-75
+20-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:12:22-72
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:13:5-68
+21-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:13:22-65
+22
+23    <application
+23-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:15:5-34:19
+24        android:name="com.live_streaming.MainApplication"
+24-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:16:7-38
+25        android:allowBackup="false"
+25-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:20:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.7.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/63a3df243d2d102452600006144a86df/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:18:7-41
+29        android:label="@string/app_name"
+29-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:17:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:19:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:21:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:8:9-44
+33        <activity
+33-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:11:9-111
+34            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+34-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:11:19-83
+35            android:exported="false" />
+35-->/Users/zego/work/video/live/live_streaming/android/app/src/debug/AndroidManifest.xml:11:84-108
+36        <activity
+36-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:22:7-33:18
+37            android:name="com.live_streaming.MainActivity"
+37-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:23:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+38-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:25:9-118
+39            android:exported="true"
+39-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:28:9-32
+40            android:label="@string/app_name"
+40-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:24:9-41
+41            android:launchMode="singleTask"
+41-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:26:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:27:9-51
+43            <intent-filter>
+43-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:29:9-32:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:30:13-65
+44-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:30:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:31:13-73
+46-->/Users/zego/work/video/live/live_streaming/android/app/src/main/AndroidManifest.xml:31:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+52            android:authorities="com.live_streaming.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/zego/soft/gradle_user_home/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
