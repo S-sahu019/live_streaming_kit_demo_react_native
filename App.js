@@ -34,8 +34,8 @@ function LivePage(props) {
   return (
     <View style={{flex: 1}}>
       <ZegoUIKitPrebuiltLiveStreaming
-        appID={Your app id}
-        appSign='Your app sign'
+        appID={53072083}
+        appSign='f6ca0133ef2e249830844f1a423e0ae4c33ba33b3b3e2023af4f0da471e9ba36'
         userID={randomUserID}
         userName={'user_'+randomUserID}
         liveID='testLiveID'
